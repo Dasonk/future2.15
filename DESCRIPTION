@@ -7,6 +7,10 @@ Author: Dason Kurkiewicz (package) R Development Core Team (code)
 Maintainer: Dason Kurkiewicz <dasonk@iastate.edu>
 Description: This is a convenience package for those stuck with R
     versions lower than 2.15 but want the functions introduced in 2.15
+Suggests:
+    future,
+    future3.0
 License: GPL-2
 Collate:
     'paste0.R'
+    'package_dependencies.R'
